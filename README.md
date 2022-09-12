@@ -9,9 +9,9 @@ A single board provides 32 Inputs which can be used for a Pedalboard and control
 
 Two boards can be linked to provide 64 Inputs, and controlled by only 4 pins also. 
 
-Any object that can act as a switch can be used to play notes with, so it can be used on a hand made keyboard / controller.
+Any object that can act as a switch can be used to trigger the Shift Registers and therefore play notes with, so it can be used on a hand made keyboard etc. to construct a MIDI controller.
 
-Using the boards connected to an Arduino Leonardo, allows you to connect the devices directly to MIDI via the USB port, without having to change the bootloader, and is detected by Windows and Linux (is someone uses these on a Mac, I can update it on here). 
+Using the boards to connect to an Arduino Leonardo, allows you to connect the devices directly to MIDI via the USB port, without having to change the bootloader. The Leonardo USB MIDI is detected by both Windows and Linux (if someone tries these on a Mac, I can update it on here). 
 
 As a basis for for Project I used an old Baldwin 711 Organ, which has:
 - Two 61 note keyboards.
