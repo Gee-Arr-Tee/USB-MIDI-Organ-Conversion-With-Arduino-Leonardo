@@ -3,6 +3,8 @@ How to Convert an Organ to a USB MIDI Controller to use with Hauptwerk / GrandOr
 
 All the Code and Eagle PCB and Schematic Files are provided, as well as connection diagrams and a Build of Materials (BOM).
 
+Added the Gerber Files so anyone can get their own boards made.
+
 Since an Arduino Leonardo does not have enough pins to control even a single 61 Note keyboard without using a diode matrix, shift registers are used as inputs for any extra pins required. 
 
 A single board provides 32 Inputs which can be used for a Pedalboard and controlled by the Arduino with only 4 pins. 
